@@ -1,0 +1,32 @@
+Script started on Thu Apr  4 13:37:08 2019
+[?1034h[36mjesusmedina[m@[32mJesuss-MacBook-Pro-5:[33;1m~/School/SchoolCode/cse/460/lab01[m$ ls
+Makefile    main.o      message.cpp message.o
+main.cpp    [1m[32mmessage[39;49m[0m     message.h   typescript
+[36mjesusmedina[m@[32mJesuss-MacBook-Pro-5:[33;1m~/School/SchoolCode/cse/460/lab01[m$ make clean
+rm message.o main.o message
+[36mjesusmedina[m@[32mJesuss-MacBook-Pro-5:[33;1m~/School/SchoolCode/cse/460/lab01[m$ ls
+Makefile    main.cpp    message.cpp message.h   typescript
+[36mjesusmedina[m@[32mJesuss-MacBook-Pro-5:[33;1m~/School/SchoolCode/cse/460/lab01[m$ make message.[K[K[K[K[K[K[K[K[K[K[K[K[Kcat Makefile 
+message: message.o main.o
+	g++ -o message message.o main.o
+
+message.o main.o:
+	g++ -c message.cpp
+	g++ -c main.cpp
+
+clean: 
+	rm message.o main.o message
+[36mjesusmedina[m@[32mJesuss-MacBook-Pro-5:[33;1m~/School/SchoolCode/cse/460/lab01[m$ make message
+g++ -c message.cpp
+g++ -c main.cpp
+g++ -o message message.o main.o
+[36mjesusmedina[m@[32mJesuss-MacBook-Pro-5:[33;1m~/School/SchoolCode/cse/460/lab01[m$ ./message [K[K[K[K[K[K[K[K[K[Kls
+Makefile    main.o      message.cpp message.o
+main.cpp    [1m[32mmessage[39;49m[0m     message.h   typescript
+[36mjesusmedina[m@[32mJesuss-MacBook-Pro-5:[33;1m~/School/SchoolCode/cse/460/lab01[m$ ./message 
+CSE USB CSE 460 the Beautf iful!
+CSUSB CSE 460 the Beautiful!
+[36mjesusmedina[m@[32mJesuss-MacBook-Pro-5:[33;1m~/School/SchoolCode/cse/460/lab01[m$ exit
+exit
+
+Script done on Thu Apr  4 13:38:39 2019

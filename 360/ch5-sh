@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [[ ${x+X} = X ]] ##If $X is a set
+then 
+  if [[ -n $x ]] ##if $x is not empty
+  then 
+    printf " \$x = %s\n" "$x"
+  else
+    printf " \$x is set but empty\n"
+  fi
+else 
+  printf "%s is not set\n" "$x"
+fi
+
+printf "%s\n" ${RANDOM}{,,,,,} |
+  while read num
+  do 
+    (( num > ${biggest:=0}c)) && biggest=$num
+  done
+printf "The largest number is: %d\n" "$biggest"

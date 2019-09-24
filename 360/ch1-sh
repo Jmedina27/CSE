@@ -1,0 +1,15 @@
+#!/bin/bash
+#: Title	: dp1
+#: Date		: 2018
+#: Author	: Jesus Medina
+#: Version 	: 1.0
+#: Description	: creates a directory in home called dp1 and put 2 subdirectories in dp1
+#		: creates a file that outputs Hello, World in bin
+#: Option	: None
+
+#creates a directory in $HOME called dp1, and creates 2 subdirectories in dp1 called bin and script
+mkdir -p ~/dp1/{script,bin}
+
+#creates a .txt file inside bin, and when it is executed it will output Hello, World!
+echo echo "Hello, World!" > ~/dp1/bin/hello.txt
+

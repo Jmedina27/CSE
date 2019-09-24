@@ -1,0 +1,20 @@
+Script started on Tue Apr 16 21:31:23 2019
+[?1034h[36mjesusmedina[m@[32mJesuss-MBP-5:[33;1m~/School/SchoolCode/cse/460/lab02[m$ g++ -c fan_process.cpp
+[36mjesusmedina[m@[32mJesuss-MBP-5:[33;1m~/School/SchoolCode/cse/460/lab02[m$ g++ -c fan_process.cpp[1Pfan_process.cpp[1Pfan_process.cpp[1Pfan_process.cpp-fan_process.cppofan_process.cpp fan_process.cpp[Cfan_process.cppafan_process.cppnfan_process.cpp_fan_process.cpppfan_process.cpprfan_process.cppocessfan_process.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Ko fan_process.o
+[36mjesusmedina[m@[32mJesuss-MBP-5:[33;1m~/School/SchoolCode/cse/460/lab02[m$ ./fan_process 
+
+			Parent id is: 9154
+This is a child process: 9156, and the parent ID is: 9154
+This is a child process: 9157, and the parent ID is: 9154
+This is a child process: 9158, and the parent ID is: 9154
+This is a child process: 9159, and the parent ID is: 9154
+This is a child process: 9160, and the parent ID is: 9154
+This is a child process: 9161, and the parent ID is: 9154
+This is a child process: 9162, and the parent ID is: 9154
+This is a child process: 9163, and the parent ID is: 9154
+This is a child process: 9164, and the parent ID is: 9154
+This is a child process: 9165, and the parent ID is: 9154
+[36mjesusmedina[m@[32mJesuss-MBP-5:[33;1m~/School/SchoolCode/cse/460/lab02[m$ exit
+exit
+
+Script done on Tue Apr 16 21:32:06 2019

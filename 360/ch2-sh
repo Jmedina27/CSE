@@ -1,0 +1,5 @@
+#!/bin/bash
+
+var="$(printf '%5d.%-5d\n' $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM | tee exer2)"
+
+

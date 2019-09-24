@@ -1,0 +1,39 @@
+#!/bin/bash
+
+#read num
+#if (( num < 10 ))
+#then 
+#   printf "%d is too low\n" "$num" >&2
+#   exit 1
+#elif (( num > 20 ))
+#then
+#   printf "%d is too high\n" "$num" >&2
+#   exit 1
+#else
+#   printf "You entered %d\n" "$num"
+#fi
+
+#n=1
+#while [ $n -le 10 ]
+#do 
+#  echo "$n"
+#  n=$(( $n + 1 ))
+#done
+
+for (( n=1; n<=10; ++n ))
+do
+  echo "$n"
+done
+
+for var in Canada USA Mexico
+do
+  printf "%s\n" "$var"
+done
+
+
+for n in {1..9}
+do 
+  x=$RANDOM
+  [ $x -le 20000 ] && continue
+  echo "n=$n x=$x"
+done

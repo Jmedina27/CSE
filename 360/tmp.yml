@@ -1,0 +1,15 @@
+---
+
+#- hosts: demo 
+#  tasks:
+#          - name: Install Google Chrome
+#            homebrew_cask:
+#                    name: google-chrome
+#                    state: installed
+           
+- hosts: demo
+  tasks:
+          - name: Install Vim  
+            homebrew:
+                    name: vim
+                    state: present

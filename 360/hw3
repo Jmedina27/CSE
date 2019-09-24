@@ -1,0 +1,27 @@
+#!/bin/bash
+#: Title	: hw3
+#: 
+
+
+
+isvalidip() #@ USAGE: isvalidip DOTTED-QUAD
+{
+  case $1 in
+    ## reject the following:
+    ## empty string
+    ## anything other than digits and dots
+    ## anything not ending with a digit
+    "" | *[!0-9.]* | *[!0-9]) return 1 ;;
+  esac
+
+##parameter expansion
+local IFS=:
+
+set -- $1
+[ $# -eq 4 ] && 
+[ ${1:-666} -le 255 ] && [ ${2:-666} -le 255 ] &&
+[ ${3:-666} -le 255 ] && [ ${4:-666} -le 255 ]
+}
+
+var=192.168.0.123
+./sa "${var:4:3}"

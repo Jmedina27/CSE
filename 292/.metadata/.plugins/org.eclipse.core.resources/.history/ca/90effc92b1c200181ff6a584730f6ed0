@@ -1,0 +1,36 @@
+package homeWork2_30;
+
+import java.util.Scanner;
+
+public class homeWork2_30 {
+
+	public static void main(String[] args) {
+		
+		int num1, num2, num3, num4, num5, num6, num7;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter a seven-digit number: ");
+		int num = input.nextInt();
+		
+		num1 = num / 1000000;
+		num2 = (num / 100000) % 10;
+		num3 = (num / 10000) % 10;
+		num4 = (num / 1000) % 10;
+		num5 = (num / 100) % 10;
+		num6 = (num / 10) % 10;
+		num7 = (num / 1) % 10;
+
+
+		
+		System.out.printf("%d%n", num1);
+		System.out.printf("%d%n", num2);
+		System.out.printf("%d%n", num3);
+		System.out.printf("%d%n", num4);
+		System.out.printf("%d%n", num5);
+		System.out.printf("%d%n", num6);
+		System.out.printf("%d%n", num7);
+
+
+	}
+
+}

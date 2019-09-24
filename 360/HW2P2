@@ -1,0 +1,22 @@
+#!/bin/bash
+#: Title	: HW2P2
+#: Date		: October 2, 2018
+#: Auhtor	: Jesus Medina
+#: Description	: Asks user to enter a file name and declares if the file exists or not
+#:Version	: 1.0
+#:Options	: None
+
+printf "Enter a file name that exists: "
+
+read name
+while true
+do
+   if [ -f $name ]
+   then
+      printf "File Exist\n"
+      break
+   else 
+      printf "%s file does not exist, try again\n" "$name"
+      read name
+   fi
+done

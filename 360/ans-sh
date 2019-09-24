@@ -1,0 +1,17 @@
+!/bin/bash
+
+
+echo "What server would you like to ping using Ansible"
+read serv;
+printf "You chose to ping $serv\n" 
+
+echo "Is this correct? (y/n)"
+
+read answr;
+while ( answr != 'y' )
+do 
+    read answr;
+done 
+
+ansible -m ping $serv;
+

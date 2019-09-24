@@ -1,0 +1,30 @@
+#!/bin/bash
+#: Title	: HW2
+#: Date		: October 2, 2018
+#: Auhtor	: Jesus Medina
+#: Description	: asks user for a number between 10 and 20 and if user inputs an invalid number or nonnumber then it would ask user to try againa. Will keep asking until a number satisfies what it asks of the user.
+#:Version	: 1.0
+#:Options	: None
+
+printf "Enter a number not between 10 and 20 : "
+read num
+
+while true
+do
+  if (( num < 10 )) 	
+  then 
+    printf "%d is less than 10, Try again\n" "$num"
+    read num
+  elif (( num > 20 ))
+  then
+    printf "%d is greater than 20, Try again\n" "$num"
+    read num
+  elif [[ -n ${num//[0-9]/} ]]
+  then
+    printf "You entered a noninteger, Please enter an integer\n"
+    read num
+  else
+    printf "The number you entered is %d\n" "$num"
+    break 
+  fi
+done
