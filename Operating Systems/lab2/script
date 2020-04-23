@@ -1,0 +1,80 @@
+Script started on Mon Jan 13 17:08:59 2020
+]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004hrrm r  lll[?1l>[?2004l
+]2;ls -G -lh]1;lltotal 48
+-rw-r--r--  1 jesusmedina  staff   1.1K Jan 13 16:54 functions.cpp
+-rw-r--r--  1 jesusmedina  staff    91B Jan 13 16:16 functions.h
+-rw-r--r--  1 jesusmedina  staff    13B Jan 13 16:58 hello.cpp
+-rwxr-xr-x  1 jesusmedina  staff   998B Jan 13 17:04 [31mlab02-sh[39;49m[0m
+-rw-r--r--  1 jesusmedina  staff    43B Jan 13 17:08 lab2
+-rw-r--r--  1 jesusmedina  staff   488B Jan 13 17:07 main.cpp
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004h../lab02-sh[1m [0m[0m [?1l>[?2004l
+]2;./lab02-sh]1;./lab02-shEnter a name for your Backup directory: 
+backup
+backup directory has been made.
+functions.cpp has been backuped.
+hello.cpp has been backuped.
+main.cpp has been backuped.
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004hlls l ll backup[1m/[0m[0m [?1l>[?2004l
+]2;ls -G -lh backup]1;lltotal 24
+-rw-r--r--  1 jesusmedina  staff   1.1K Jan 13 17:09 functions.cpp
+-rw-r--r--  1 jesusmedina  staff    13B Jan 13 17:09 hello.cpp
+-rw-r--r--  1 jesusmedina  staff   488B Jan 13 17:09 main.cpp
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004hll backup[9D./lab02-sh[?1l>[?2004l
+]2;./lab02-sh]1;./lab02-shEnter a name for your Backup directory: 
+backup
+backup directory already exists.
+functions.cpp is the latest version 
+hello.cpp is the latest version 
+main.cpp is the latest version 
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004hllsl ll backup[1m/[0m[0m/
+[J[0mfunctions.cpp  [Jhello.cpp      [Jmain.cpp     [J[A[0m[27m[24m[8Cll backup/[K /[?1l>[?2004l
+[J]2;ls -G -lh backup/]1;lltotal 24
+-rw-r--r--  1 jesusmedina  staff   1.1K Jan 13 17:09 functions.cpp
+-rw-r--r--  1 jesusmedina  staff    13B Jan 13 17:09 hello.cpp
+-rw-r--r--  1 jesusmedina  staff   488B Jan 13 17:09 main.cpp
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004heecho "something" >> main.cpp                       e  ffor $file in *.cpp do  [?1l>[?2004l
+zsh: parse error near `$file'
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;31m➜  [36mlab2[00m [K[?1h=[?2004he eecho >>  "something" main.cpp[1m [0m[0m [?1l>[?2004l
+]2;echo "something" main.cpp]1;echosomething main.cpp
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004hecho "something" main.cpp>main.cpp[8D>main.cpp[8D main.cpp[8D[1C[?1l>[?2004l
+]2;echo "something" >> main.cpp]1;echo[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004hecho "something" >> main.cpp        funcq tions.cpp[1m [0m[0m [?1l>[?2004l
+]2;echo "something" >> functions.cpp]1;echo[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004hecho "something" >> functions.cpp[13Dmain.cpp     [8Dfunctions.cpp             hello.cpp[1m [0m[0m [?1l>[?2004l
+]2;echo "something" >> hello.cpp]1;echo[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004hecho "something" >> hello.cpp[9Dfunctions.cpp[13Dmain.cpp     [11Dmain.cpp   [25Dfor $file in *.cpp       [18Dll backup/        [8D[10D./lab02-sh[?1l>[?2004l
+]2;./lab02-sh]1;./lab02-shEnter a name for your Backup directory: 
+backup
+backup directory already exists.
+functions.cpp has been updated.
+hello.cpp has been updated.
+main.cpp has been updated.
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004h./lab02-sh[10Decho "something" >> hello.cpp[29D./lab02-sh                   [19D[10D          [10Dlll backup[1m/[0m[0m [?1l>[?2004l
+]2;ls -G -lh backup]1;lltotal 24
+-rw-r--r--  1 jesusmedina  staff   1.1K Jan 13 17:11 functions.cpp
+-rw-r--r--  1 jesusmedina  staff    23B Jan 13 17:11 hello.cpp
+-rw-r--r--  1 jesusmedina  staff   498B Jan 13 17:11 main.cpp
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004hll backup[9D./lab02-sh[10Decho "something" >> hello.cpp[29D./lab02-sh                   [19D[?1l>[?2004l
+]2;./lab02-sh]1;./lab02-shEnter a name for your Backup directory: 
+backup
+backup directory already exists.
+functions.cpp is the latest version 
+hello.cpp is the latest version 
+main.cpp is the latest version 
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004heecho >>  : "something new" >> main.cpp[1m [0m[0m [?1l>[?2004l
+]2;echo "something new" >> main.cpp]1;echo[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004hecho "something new" >> main.cpp[32D./lab02-sh                      [22D[10Dll backup [9D./lab02-sh[?1l>[?2004l
+]2;./lab02-sh]1;./lab02-shEnter a name for your Backup directory: 
+backup
+backup directory already exists.
+functions.cpp is the latest version 
+hello.cpp is the latest version 
+main.cpp has been updated.
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004httouch main2.cpp[?1l>[?2004l
+]2;touch main2.cpp]1;touch[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004htouch main2.cpp[15D./lab02-sh     [10Decho "something new" >> main.cpp[32D./lab02-sh                      [22D[?1l>[?2004l
+]2;./lab02-sh]1;./lab02-shEnter a name for your Backup directory: 
+backup
+backup directory already exists.
+functions.cpp is the latest version 
+hello.cpp is the latest version 
+main.cpp is the latest version 
+main2.cpp has been backuped.
+[1m[7m%[27m[1m[0m                                                                                             ]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2]2;jesusmedina@Jesuss-MacBook-Pro-5]1;..0/CSE460/lab2]7;file://Jesuss-MacBook-Pro-5.local/Users/jesusmedina/School/Winter2020/CSE460/lab2[0m[27m[24m[J[01;32m➜  [36mlab2[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Mon Jan 13 17:12:56 2020

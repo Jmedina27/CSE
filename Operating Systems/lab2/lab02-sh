@@ -1,0 +1,44 @@
+#!/bin/bash
+#Jesus Medina
+#Lab 2 : Backup Script
+
+#prompt user to give a name for the backup directory
+echo "Enter a name for the backup directory"
+read backup
+
+#if the backup directory does not exist
+if [ ! -d $backup ]
+then	
+	
+	#create the directory
+	mkdir $backup
+	echo "$backup directory has been created."
+#tell user the directory already exists
+else
+	echo "$backup already exists."
+fi
+
+#use a for loop to get all file ending in .cpp
+for file in *.cpp
+do
+	#if the file does not exist in the backup directory 
+	if [ ! -f $backup/$file ]
+	then
+		#cp the file to the backup directory
+		cp $file $backup
+		echo "$file has been backed up."
+	#else if it does exist
+	else
+		#and if the file in the current directory is newer than the file in the backup directory
+		if [ $file -nt $backup/$file ]
+		then
+			#update the file in the backup directory
+			cp $file $backup/$file
+			echo "$file has been updated."
+		#else tell user it is at its latest update
+		else
+			echo "$file is at its latest version."
+		fi
+	fi
+done
+
