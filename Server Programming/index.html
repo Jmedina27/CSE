@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Login Page">
+    <meta name="keywords" content="cse 405, server programming, database website">
+    <meta name="author" content="Jesus Medina">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-auth.js"></script>
+    <script src="index.js"></script>
+    <script src="firebase.js"></script>
+</head>
+
+<body>
+    <form class="login-form" action="index.html" method="post">
+        <h1>Login</h1>
+        <input type="email" id="email" class="login-text" placeholder="Email">
+        <input type="password" id="password" class="login-text" placeholder="Password">
+        <button onclick="login()" class="login-button">Login</button>
+    </form>
+
+</body>
+
+</html>
